@@ -67,12 +67,6 @@
 
                     <p>Her research contributions have been published in leading journals and conferences, including IEEE Transactions on Computers, IEEE Transactions on Knowledge and Data Engineering, ICLR, KDD, ACM MM, WWW, AAAI, IJCAI, ICME, and CIKM.
                     
-                    <!--
-                    <p>Currently, I am a researcher in Machine Learning Group, Microsoft Research Asia. My research interests include AI in Financial Technology, Reinforcement Learning, Natural Language Processing and Computer Vision.
-                    <p>Before that, I got my Ph.D. degree from the Joint Ph.D. Program of Microsoft Research Asia and Nankai University in June 2019, supervised by Prof.<a href="http://research.microsoft.com/en-us/people/tyliu/"> Tie-Yan Liu</a> <span style="color:#979da5">(at Microsoft Research Asia)</span> and Prof. Gang Wang <span style="color:#979da5">(at Nankai University)</span>.
-                    Prior to that, I obtained my bachelor degree from Nankai University in 2014. Here is my <a href="public/ChangXu_CV.pdf">CV</a>.</p>
-                    -->
-
                 </div><!--//summary-->
 
                 <!--div class="item">
@@ -91,6 +85,9 @@
 
             </section><!--//section-->
 
+
+
+
             <section class="section projects-section">
                 <h2 class="section-title"><i class="fa fa-thumbs-o-up"></i>News</h2>
                 <!--h2 class="section-title"><i class="fa fa-file-text"></i>News</h2-->
@@ -102,6 +99,74 @@
             </ul>
 
             </section><!--//section-->
+
+
+
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Research Statement</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                           
+                           
+
+                            <!--div class="time">2018.4 - 2019.2</div-->
+                        </div><!--//upper-row-->
+                    </div><!--//meta-->
+                    <div class="details">
+                        <section>
+                            <h4>AI in Finance</h4>
+                            <p>One of my core research areas is <strong>AI in finance</strong>, specifically in <strong>stock market modeling</strong>. The stock market presents a rich and challenging environment for machine learning, characterized by dynamic, high-dimensional, and sequential data. Modeling financial markets requires sophisticated techniques to capture temporal dependencies and fluctuations, which I address using <strong>sequential models</strong> such as Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) networks, and Transformers.</p>
+                            <p>In the context of financial data, two primary types of <strong>time-series data</strong> are crucial:</p>
+                            <ul>
+                                <li><strong>Price-Volume Data</strong>: This is <em>coarse-grained</em> data that captures overall market trends, including price movements and trading volumes. Predictive models built on this data are focused on identifying broader market trends and forecasting stock price fluctuations.</li>
+                                <li><strong>Order Book Data</strong>: This is <em>fine-grained</em> data representing real-time order book dynamics, detailing the bid-ask spreads, order flows, and market depth at different price levels. Models that process order book data require a higher level of granularity and are particularly useful for analyzing market microstructure and short-term price movements.</li>
+                            </ul>
+                            <p>In addition to time-series data, I also explore the integration of <strong>textual data</strong> such as financial news, reports, and social media sentiment. These data sources help uncover critical <strong>events</strong> and reveal the <strong>relationships between stocks</strong>, offering a richer context and more comprehensive predictions for market behavior. By incorporating these heterogeneous data sources, I aim to enhance the predictive power and robustness of financial models.</p>
+                            <p>The primary tasks of my research in finance focus on:</p>
+                            <ul>
+                                <li><strong>Prediction</strong>: Developing robust models that forecast stock price trends, market volatility, and financial risk based on historical and real-time data.</li>
+                                <li><strong>Generation</strong>: Building generative models that simulate realistic financial scenarios, improving market simulations and decision-making in uncertain environments.</li>
+                            </ul>
+                            <p>Through these efforts, my research seeks to bridge the gap between AI techniques and real-world financial applications, improving both predictive accuracy and model interpretability.</p>
+                        </section>
+                    
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                        
+                            <div class="time">2017.9 - 2018.2</div>
+                        </div><!--//upper-row-->
+                    </div><!--//meta-->
+                    <div class="details">
+                        <section>
+                            <h4>Time-Series Analysis</h4>
+                            <p>I investigate the integration of multiple levels of time-series data—both <strong>fine-grained</strong> (e.g., transaction-level or tick data) and <strong>coarse-grained</strong> (e.g., daily summaries or aggregated statistics). The challenge lies in effectively combining these different types of data to leverage their complementary strengths, and my work develops novel techniques to incorporate them into unified models, leading to improved performance and more robust predictions.</p>
+                    
+                            <p>In addition to addressing granularity, I explore the power of <strong>cross-domain learning</strong>. Financial markets, healthcare, and other domains often share common underlying patterns, yet have domain-specific nuances. By capturing these general patterns and integrating relevant domain knowledge, I develop models that can transfer insights across domains. This approach enhances performance in data-scarce or noisy target domains and provides a way to apply learned knowledge from one area to another, creating more adaptable and versatile models.</p>
+                    
+                            <p>Beyond traditional predictive modeling, I place significant emphasis on <strong>time-series generation</strong>. Generative models play a crucial role in simulations, data augmentation, and scenario testing. My research focuses on generating time-series data that is not only realistic but also <strong>controllable</strong> and <strong>interactive</strong>. This means developing methods to produce data that can be tailored to specific domains and even adjusted based on particular requirements—be it for risk evaluation, testing, or forecasting with specific constraints.</p>
+                    
+                            <p>Finally, I emphasize <strong>interpretability</strong> in time-series models, ensuring transparency in how predictions are made, which is crucial for trust and application in high-stakes domains.</p>
+                        </section>
+            </div><!--//details-->
+                </div><!--//item-->
+            </section><!--//section-->
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -123,8 +188,8 @@
                     </h5>
                     <p class="subtitle-aux"><span class="bold">Topics:</span>
                         <a href="#topic-perception" onClick="return publicationByTopicSpecific(this)" data-topic="AI-in-Finance">AI in Finance</a> /
-                        <a href="#topic-generative-model" onClick="return publicationByTopicSpecific(this)" data-topic="generative-model">Generative Modeling</a> /
                         <a href="#topic-reason" onClick="return publicationByTopicSpecific(this)" data-topic="time-series">Time-series Analysis</a> /
+                        <a href="#topic-generative-model" onClick="return publicationByTopicSpecific(this)" data-topic="generative-model">Generative Modeling</a> /
                         <a href="#topic-rl" onClick="return publicationByTopicSpecific(this)" data-topic="sequential-modeling">Sequential Modeling</a>
                         <span class="note">(* indicates equal contribution)</span>
                     </p>
@@ -133,7 +198,7 @@
                         
                     
 
-                        <div class="pub-card" data-topic="generative-model" data-year="2024" data-selected="true">
+                        <div class="pub-card" data-topic="time-series" data-year="2024" data-selected="true">
                             <div class="row">
                                 <div class="col-l col-xs-12 col-lg-3">
                                     <img src="figures/TimeRAF.png" width="100%" playsinline autoplay muted loop preload>
