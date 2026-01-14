@@ -62,10 +62,13 @@
             <section class="section summary-section">
                 <h2 class="section-title"><i class="fa fa-user"></i>About Me</h2>
                 <div class="summary">
+                    <p>Chang Xu is currently a Senior Researcher at the Machine Learning Group, <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia (MSRA)/a>, which she joined after receiving her Ph.D. Prior to that, she received the B.S. and Ph.D. degrees in Computer Science from Nankai University in 2014 and 2019, respectively. Her research interests include fundamental machine learning, time series analysis, and generative modeling, with applications in industrial scenarios such as healthcare and finance. She has published dozens of papers in leading journals and conferences, with over a thousand citations, and has served as a program committee member and reviewer for top-tier venues.
+                    <!--
+                        
                     <p>Chang Xu is a Senior Researcher at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>, where she has been working in the <a href="https://www.microsoft.com/en-us/research/group/machine-learning-research-group/">Machine Learning Group</a> since 2019. She received her Bachelor's degree from Nankai University in 2014 and completed her Ph.D. in 2019 through a joint program between Nankai University and Microsoft Research Asia.
-
                     <p>Her research centers on sequential modeling, with a recent focus on time series analysis and generative modeling, especially in finance and healthcare domains. Her work has been published in leading venues such as IEEE Transactions on Computers, IEEE TKDE, ICLR, ICML, NeurIPS, KDD, WWW, AAAI, IJCAI, ACM MM, ICME, and CIKM, accumulating over a thousand citations.
-                    
+                    -->
+                        
                 </div><!--//summary-->
 
                 <!--div class="item">
@@ -208,6 +211,7 @@
                     )
                     </h5>
                     <p class="subtitle-aux"><span class="bold">Topics:</span>
+                        <a href="#topic-healthcare" onClick="return publicationByTopicSpecific(this)" data-topic="healthcare">AI in Healthcare</a> /
                         <a href="#topic-finance" onClick="return publicationByTopicSpecific(this)" data-topic="AI-in-Finance">AI in Finance</a> /
                         <a href="#topic-time-series" onClick="return publicationByTopicSpecific(this)" data-topic="time-series">Time-series Analysis</a> /
                         <a href="#topic-generative-model" onClick="return publicationByTopicSpecific(this)" data-topic="generative-model">Generative Modeling</a> /
@@ -219,7 +223,37 @@
                         
                     
 
-                        <div class="pub-card" data-topic="time-series" data-year="2025" data-selected="true">
+                        <div class="pub-card" data-topic="healthcare" data-year="2025" data-selected="true">
+                            <div class="row">
+                                <div class="col-l col-xs-12 col-lg-3">
+                                    <img src="figures/MIRA.png" width="100%" playsinline autoplay muted loop preload>
+                                </div>
+                                <div class="col-r col-xs-12 col-lg-9">
+                                    <div class="pub-card-body">
+                                        <h5 class="title">MIRA: Medical Time Series Foundation Model for Real-World Health Data</h5>
+                                        <h6 class="authors">
+                                            <a href="">Hao Li</a>,
+                                            <a href="">Bowen Deng</a>,
+                                            <u>Chang Xu</u>,
+                                            <a href="">Hao Li</a>,
+                                            <a href="">Zhiyuan Feng</a>,
+                                            <a href="">Viktor Schlegel</a>,
+                                            <a href="">Yu-Hao Huang</a>,
+                                            <a href="">Yizheng Sun</a>,
+                                            <a href="">Jingyuan Sun</a>,
+                                            <a href="">Kailai Yang</a>,
+                                            <a href="">Yiyao Yu</a>,
+                                            <a href="">Jiang Bian</a>
+                                        </h6>
+                                        <p class="info">
+                                            <a href="https://neurips.cc/Conferences/2025" class="conference">NeurIPS 2025</a> /
+                                            <a href="https://arxiv.org/pdf/2506.07584">Paper</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="pub-card" data-topic="time-series" data-year="2025" data-selected="true">
                             <div class="row">
                                 <div class="col-l col-xs-12 col-lg-3">
                                     <img src="figures/TarDiff.png" width="100%" playsinline autoplay muted loop preload>
