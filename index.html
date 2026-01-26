@@ -62,7 +62,7 @@
             <section class="section summary-section">
                 <h2 class="section-title"><i class="fa fa-user"></i>About Me</h2>
                 <div class="summary">
-                    <p>Chang Xu is currently a Senior Researcher at the Machine Learning Group, <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia (MSRA)/a>, which she joined after receiving her Ph.D. Prior to that, she received the B.S. and Ph.D. degrees in Computer Science from Nankai University in 2014 and 2019, respectively. Her research interests include fundamental machine learning, time series analysis, and generative modeling, with applications in industrial scenarios such as healthcare and finance. She has published dozens of papers in leading journals and conferences, with over a thousand citations, and has served as a program committee member and reviewer for top-tier venues.
+                    <p>Chang Xu is currently a Senior Researcher at the Machine Learning Group, <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia (MSRA) </a>, which she joined after receiving her Ph.D. Prior to that, she received the B.S. and Ph.D. degrees in Computer Science from Nankai University in 2014 and 2019, respectively. Her research interests include fundamental machine learning, time series analysis, and generative modeling, with applications in industrial scenarios such as healthcare and finance. She has published dozens of papers in leading journals and conferences, with over a thousand citations, and has served as a program committee member and reviewer for top-tier venues.
                     <!--
                         
                     <p>Chang Xu is a Senior Researcher at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>, where she has been working in the <a href="https://www.microsoft.com/en-us/research/group/machine-learning-research-group/">Machine Learning Group</a> since 2019. She received her Bachelor's degree from Nankai University in 2014 and completed her Ph.D. in 2019 through a joint program between Nankai University and Microsoft Research Asia.
@@ -94,14 +94,34 @@
             
             <ul>
                 <li>
-                    We are releasing <strong><a href="https://lnkd.in/ggenFuhE" target="_blank" rel="noopener" style="color: red;">TimeCraft</a></strong>, an innovative framework for synthetic time series generation!
+                    <strong>[Jan. 2026]</strong> We are releasing <strong><a href="https://github.com/microsoft/MIRA" target="_blank" rel="noopener" style="color: red;">MIRA</a></strong>, a medical time-series foundation model designed for real-world healthcare data. MIRA is pretrained on over <strong>454 billion</strong> time points and explicitly targets the core challenges of clinical time series, including irregular sampling, heterogeneous frequencies, and pervasive missing values.
+                    <strong>Key technical highlights:</strong>
+                    <ul>
+                        <li><strong>Continuous-Time Positional Encoding (CT-RoPE):</strong> Encodes irregular time intervals directly in continuous time, enabling precise modeling of non-uniformly sampled clinical records.</li>
+                        <li><strong>Frequency-Specialized Mixture-of-Experts:</strong> Routes signals with different temporal resolutions to specialized experts, improving representation learning across heterogeneous clinical variables.</li>
+                        <li><strong>Neural ODE-based Continuous Dynamics Extrapolation:</strong> Models latent physiological dynamics in continuous time, enabling robust forecasting and natural handling of missing observations without interpolation.</li>
+                        <li><strong>Large-Scale Pretraining for Zero-Shot Transfer:</strong> Pretrained on 454B+ time points, MIRA exhibits strong zero-shot and cross-dataset generalization across diverse clinical tasks.</li>
+                    </ul>
+                </li>
+                <p>
+                    🔗 <strong>Explore the repository:</strong>
+                    <a href="https://github.com/microsoft/MIRA" target="_blank" rel="noopener">https://github.com/microsoft/MIRA</a>
+                    <br>
+                    📄 <strong>量子位：</strong>
+                    <a href="https://mp.weixin.qq.com/s/8MXHx9JuSWIiVtx6N4hVCA" target="_blank" rel="noopener">量子位链接</a>
+                    
+                    📄 <strong>知乎：</strong>
+                    <a href="https://zhuanlan.zhihu.com/p/1999148705945786225" target="_blank" rel="noopener">知乎链接</a>
+                </p>
+                <li>
+                    <strong>[May 2025]</strong> We are releasing <strong><a href="https://lnkd.in/ggenFuhE" target="_blank" rel="noopener" style="color: red;">TimeCraft</a></strong>, an innovative framework for synthetic time series generation!
                     TimeCraft introduces a novel approach by learning a universal latent space of semantic prototypes for time series, enabling impressive cross-domain generalization, while leveraging a diffusion-based framework to ensure high-fidelity and diverse data generation.
                     <br>
                     <strong>Key technical highlights:</strong>
                     <ul>
-                        <li>🔹 <strong>Prototype Assignment Module (PAM):</strong> Adapts to new domains with few-shot examples.</li>
-                        <li>🔹 <strong>Text-based Control:</strong> Leverage natural language to guide the generation process.</li>
-                        <li>🔹 <strong>Influence-Guided Diffusion:</strong> Generates synthetic samples optimized for downstream task performance.</li>
+                        <li><strong>Prototype Assignment Module (PAM):</strong> Adapts to new domains with few-shot examples.</li>
+                        <li><strong>Text-based Control:</strong> Leverage natural language to guide the generation process.</li>
+                        <li><strong>Influence-Guided Diffusion:</strong> Generates synthetic samples optimized for downstream task performance.</li>
                     </ul>
                 </li>
                 <p>
@@ -224,7 +244,7 @@
                         
                     
 
-                        <div class="pub-card" data-topic="healthcare" data-year="2025" data-selected="true">
+                        <div class="pub-card" data-topic="healthcare" data-year="2026" data-selected="true">
                             <div class="row">
                                 <div class="col-l col-xs-12 col-lg-3">
                                     <img src="figures/DiGA.png" width="100%" playsinline autoplay muted loop preload>
@@ -328,7 +348,7 @@
                             </div>
                         </div>
 
-                        <div class="pub-card" data-topic="time-series" data-year="2024" data-selected="true">
+                        <div class="pub-card" data-topic="time-series" data-year="2025" data-selected="true">
                             <div class="row">
                                 <div class="col-l col-xs-12 col-lg-3">
                                     <img src="figures/Time-DP.png" width="100%" playsinline autoplay muted loop preload>
@@ -354,7 +374,7 @@
                         </div>
                         
 
-                        <div class="pub-card" data-topic="time-series" data-year="2024" data-selected="true">
+                        <div class="pub-card" data-topic="time-series" data-year="2025" data-selected="true">
                             <div class="row">
                                 <div class="col-l col-xs-12 col-lg-3">
                                     <img src="figures/TimeRAF.png" width="100%" playsinline autoplay muted loop preload>
@@ -372,7 +392,7 @@
                                             <a href="">Tieniu Tan</a>
                                         </h6>
                                         <p class="info">
-                                            <a href="https://arxiv.org/pdf/2412.20810">Preprint 2024</a>
+                                            <a href="https://arxiv.org/pdf/2412.20810">IEEE TKDE 2025</a>
                                         </p>
                                     </div>
                                 </div>
@@ -380,7 +400,7 @@
                         </div>
                         
 
-                        <div class="pub-card" data-topic="generative-model" data-year="2024" data-selected="true">
+                        <div class="pub-card" data-topic="generative-model" data-year="2025" data-selected="true">
                             <div class="row">
                                 <div class="col-l col-xs-12 col-lg-3">
                                     <img src="figures/InvDiff.png" width="100%" playsinline autoplay muted loop preload>
@@ -409,7 +429,7 @@
                         </div>
                         
 
-                        <div class="pub-card" data-topic="AI-in-Finance" data-year="2024" data-selected="true">
+                        <div class="pub-card" data-topic="AI-in-Finance" data-year="2025" data-selected="true">
                             <div class="row">
                                 <div class="col-l col-xs-12 col-lg-3">
                                     <img src="figures/MarS.png" width="100%" playsinline autoplay muted loop preload>
@@ -452,7 +472,7 @@
                                             <a href="">Tie-Yan Liu</a>
                                         </h6>
                                         <p class="info">
-                                            <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69" class="conference">IEEE TKDE</a> /
+                                            <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69" class="conference">IEEE TKDE 2024</a> /
                                             <a href="public/Digger_Guider_TKDE.pdf">Paper</a> 
                                         </p>
                                     </div>
